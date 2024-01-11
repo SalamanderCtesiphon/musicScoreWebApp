@@ -36,6 +36,9 @@ function ScoreSheet() {
                   />
                   Paneer
                 </div>
+                <div className="result">
+                  Above checkbox is {isChecked ? 'checked' : 'un-checked'}.
+                </div>
               </div>
             </div>
           </div>
