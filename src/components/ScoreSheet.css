@@ -40,10 +40,11 @@ section {
 }
 
 .music-score-line1 {
-  margin-top: 18px;
+  margin-top: 18.5px;
   display: flex;
   justify-content: center;
-  border: 1px solid black;
+  border-top: .85px solid rgba(103, 103, 103, 0.788);
+  border-bottom: 1px solid rgba(103, 103, 103, 0.788);
   width: 900px;
   height: 58px;
 }
