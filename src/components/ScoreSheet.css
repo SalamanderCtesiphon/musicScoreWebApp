@@ -25,8 +25,31 @@ section {
 
 .treble-clef {
   height: 100px;
+  width: 100px;
 }
 
 .score-sheet {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.top-line {
+  display: flex;
+}
+
+.music-score-line1 {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 900px;
+  height: 58px;
+}
+
+.text-line {
+  border: 1px solid black;
+  width: 1000px;
+  height: 58px;
 }

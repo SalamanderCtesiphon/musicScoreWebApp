@@ -11,36 +11,48 @@ function ScoreSheet() {
         </header>
         <div className="page">
           <div className="score-sheet">
-            <img
-              src={TrebleClef}
-              alt="treble clef svg"
-              className="treble-clef"
-            />
-            <div className="music-score-line1"></div>
+            <div className="top-line">
+              <img
+                src={TrebleClef}
+                alt="treble clef svg"
+                className="treble-clef"
+              />
+              <div className="music-score-line1"></div>
+            </div>
+            <div className="text-line"></div>
           </div>
           <div className="score-sheet">
-            <img
-              src={TrebleClef}
-              alt="treble clef svg"
-              className="treble-clef"
-            />
-            <div className="music-score-line1"></div>
+            <div className="top-line">
+              <img
+                src={TrebleClef}
+                alt="treble clef svg"
+                className="treble-clef"
+              />
+              <div className="music-score-line1"></div>
+            </div>
+            <div className="text-line"></div>
           </div>
           <div className="score-sheet">
-            <img
-              src={TrebleClef}
-              alt="treble clef svg"
-              className="treble-clef"
-            />
-            <div className="music-score-line1"></div>
+            <div className="top-line">
+              <img
+                src={TrebleClef}
+                alt="treble clef svg"
+                className="treble-clef"
+              />
+              <div className="music-score-line1"></div>
+            </div>
+            <div className="text-line"></div>
           </div>
           <div className="score-sheet">
-            <img
-              src={TrebleClef}
-              alt="treble clef svg"
-              className="treble-clef"
-            />
-            <div className="music-score-line1"></div>
+            <div className="top-line">
+              <img
+                src={TrebleClef}
+                alt="treble clef svg"
+                className="treble-clef"
+              />
+              <div className="music-score-line1"></div>
+            </div>
+            <div className="text-line"></div>
           </div>
         </div>
       </section>
