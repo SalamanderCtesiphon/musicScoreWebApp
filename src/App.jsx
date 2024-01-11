@@ -1,7 +1,12 @@
 import './App.css'
+import Toolbar from './components/Toolbar'
 
 function App() {
-  return <></>
+  return (
+    <>
+      <Toolbar />
+    </>
+  )
 }
 
 export default App
