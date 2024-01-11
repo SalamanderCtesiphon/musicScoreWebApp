@@ -9,7 +9,40 @@ function ScoreSheet() {
         <header id="scoreheader">
           <h3>Your title goes here</h3>
         </header>
-        <img src={TrebleClef} alt="treble clef svg" />
+        <div className="page">
+          <div className="score-sheet">
+            <img
+              src={TrebleClef}
+              alt="treble clef svg"
+              className="treble-clef"
+            />
+            <div className="music-score-line1"></div>
+          </div>
+          <div className="score-sheet">
+            <img
+              src={TrebleClef}
+              alt="treble clef svg"
+              className="treble-clef"
+            />
+            <div className="music-score-line1"></div>
+          </div>
+          <div className="score-sheet">
+            <img
+              src={TrebleClef}
+              alt="treble clef svg"
+              className="treble-clef"
+            />
+            <div className="music-score-line1"></div>
+          </div>
+          <div className="score-sheet">
+            <img
+              src={TrebleClef}
+              alt="treble clef svg"
+              className="treble-clef"
+            />
+            <div className="music-score-line1"></div>
+          </div>
+        </div>
       </section>
     </>
   )
