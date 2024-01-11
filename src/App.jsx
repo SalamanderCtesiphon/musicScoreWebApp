@@ -1,4 +1,5 @@
 import './App.css'
+import ScoreSheet from './components/ScoreSheet'
 import Toolbar from './components/Toolbar'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <main>
         <Toolbar />
+        <ScoreSheet />
       </main>
     </>
   )
