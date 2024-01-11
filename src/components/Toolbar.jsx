@@ -4,9 +4,7 @@ import './Toolbar.css'
 function Toolbar() {
   return (
     <>
-      <header>
-        <div>Toolbar</div>
-      </header>
+      <nav></nav>
     </>
   )
 }
