@@ -1,7 +1,13 @@
 import React from 'react'
 
 function Toolbar() {
-  return <div>Toolbar</div>
+  return (
+    <>
+      <header>
+        <div>Toolbar</div>
+      </header>
+    </>
+  )
 }
 
 export default Toolbar

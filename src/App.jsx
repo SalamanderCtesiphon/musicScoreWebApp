@@ -4,7 +4,9 @@ import Toolbar from './components/Toolbar'
 function App() {
   return (
     <>
-      <Toolbar />
+      <main>
+        <Toolbar />
+      </main>
     </>
   )
 }
