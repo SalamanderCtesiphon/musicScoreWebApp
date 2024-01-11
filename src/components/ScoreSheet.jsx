@@ -38,6 +38,7 @@ function ScoreSheet() {
                 src={TrebleClef}
                 alt="treble clef svg"
                 className="treble-clef"
+                id="treble-clef3"
               />
               <div className="music-score-line1"></div>
             </div>
@@ -49,6 +50,7 @@ function ScoreSheet() {
                 src={TrebleClef}
                 alt="treble clef svg"
                 className="treble-clef"
+                id="treble-clef4"
               />
               <div className="music-score-line1"></div>
             </div>
