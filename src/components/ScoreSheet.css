@@ -24,8 +24,9 @@ section {
 }
 
 .treble-clef {
-  height: 100px;
-  width: 100px;
+  object-fit: fill;
+  height: 150px;
+  width: 120px;
 }
 
 .score-sheet {
@@ -40,13 +41,12 @@ section {
 }
 
 .music-score-line1 {
-  margin-top: 18.5px;
+  margin-top: 19px;
+  padding-top: 1px;
   display: flex;
-  justify-content: center;
-  border-top: .85px solid rgba(103, 103, 103, 0.788);
-  border-bottom: 1px solid rgba(103, 103, 103, 0.788);
-  width: 900px;
-  height: 58px;
+  justify-content: space-around;
+  width: 800px;
+  height: 150px;
 }
 
 .text-line {
@@ -63,7 +63,19 @@ section {
   margin-top: .5px;
 }
 
-.eighth-note-section {
+.eighth-note-column {
   display: flex;
   flex-direction: column;
+}
+
+.note-box {
+  border: 1px solid black;
+  margin: 1px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+
+.note-box:hover {
+  background-color: gray;
 }
