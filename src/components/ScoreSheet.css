@@ -38,14 +38,16 @@ section {
 
 .top-line {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid black;
+  margin-top: -5px;
 }
 
 .music-score-line1 {
-  margin-top: 19px;
-  padding-top: 1px;
   display: flex;
   justify-content: space-around;
-  width: 800px;
+  width: 900px;
   height: 150px;
 }
 
@@ -69,6 +71,7 @@ section {
 }
 
 .note-box {
+  cursor: pointer;
   border: 1px solid black;
   margin: 1px;
   height: 10px;

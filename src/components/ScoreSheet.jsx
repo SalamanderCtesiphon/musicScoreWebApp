@@ -12,11 +12,6 @@ function ScoreSheet() {
         <div className="page">
           <div className="score-sheet">
             <div className="top-line">
-              <img
-                src={TrebleClef}
-                alt="treble clef svg"
-                className="treble-clef"
-              />
               <div className="music-score-line1">
                 <div className="eighth-note-column">
                   <div className="note-box"></div>
