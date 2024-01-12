@@ -62,3 +62,8 @@ section {
 #treble-clef4 {
   margin-top: .5px;
 }
+
+.eighth-note-section {
+  display: flex;
+  flex-direction: column;
+}
